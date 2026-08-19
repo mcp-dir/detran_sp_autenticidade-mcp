@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.mcp-dir/detran_sp_autenticidade-mcp",
+  "title": "DETRAN SP: Autenticidade de Certidão",
+  "description": "DETRAN SP: Autenticidade de Certificate, official-source lookup. Platform-hosted, pay per query with",
+  "version": "0.1.0",
+  "repository": {
+    "url": "https://github.com/mcp-dir/detran_sp_autenticidade-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.mcp.ai/p_detran_sp_autenticidade"
+    }
+  ]
+}
